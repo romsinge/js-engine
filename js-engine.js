@@ -1,6 +1,9 @@
 // Require all the needed node modules
 var express = require('express');
 
+// Make public the static files directory
+app.use(express.static('public'));
+
 // Create an express object
 var app = express();
 
